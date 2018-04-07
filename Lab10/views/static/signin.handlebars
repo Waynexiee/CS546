@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Log In</title>
+</head>
+<body>
+	{{#if messages}}
+		<p class="error">{{messages}}</p>
+	{{/if}}
+	<h1>Log In</h1>
+  <main>
+		<form action="/login" method="POST" id="login-form">
+			<label for="username">
+				USERNAME:
+			</label>
+			<input type="text" id="username" name="username"/>
+
+			<label for="password">
+				PASSWORDS:
+			</label>
+			<input type="password" id="password" name="password"/>
+			<button type="submit">Submit</button>
+		</form>
+	</main>
+</body>
+</html>

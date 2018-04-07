@@ -1,0 +1,52 @@
+.success {
+    color: #28a745;
+}
+
+.failure {
+    color: #dc3545;
+}
+
+body {
+    font-size: 14pt;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid #afafaf;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+label {
+    font-weight: bold;
+}
+
+.error {
+    color: #ff0000;
+}
+
+
+
+.link:visited {
+    font-style: italic;
+}
+
+.link:hover {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.link:active {
+    color: #ff0000;
+}
